@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Codecs33",
+		"ConvertToUTF8",
+		"DocBlockr_Python",
+		"GitGutter",
+		"Markdown Extended",
+		"Monokai Extended",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"Python Flake8 Lint",
+		"Python PEP8 Autoformat",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeMozcInput",
+		"Table Editor"
+	],
+	"repositories":
+	[
+		"https://github.com/yasuyuky/SublimeMozcInput",
+		"https://github.com/yasuyuky/SublimeMozcInput"
+	]
+}

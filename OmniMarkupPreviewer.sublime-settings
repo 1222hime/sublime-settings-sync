@@ -1,0 +1,7 @@
+{
+    // MarkdownRenderer options
+    "renderer_options-MarkdownRenderer": {
+        // ubuntuでエラーが出るので．
+        //"extensions": ["tables", "fenced_code", "codehilite"]
+    }
+}

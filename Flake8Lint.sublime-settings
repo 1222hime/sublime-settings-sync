@@ -1,0 +1,11 @@
+{
+	// set desired max line length
+	"pep8_max_line_length": 100,
+	"import-order": true,
+	// import order style: "cryptography" or "google"
+	// See also: https://github.com/public/flake8-import-order#configuration
+	"import-order-style": "google",
+	// skip errors and warnings (e.g. ["E303", "E4", "W"])
+	"ignore": ["D302", "D400", "E501"],
+
+}

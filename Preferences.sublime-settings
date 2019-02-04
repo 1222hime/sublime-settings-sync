@@ -1,0 +1,17 @@
+{
+	"added_words":
+	[
+		"bioluminescence"
+	],
+	"color_scheme": "Packages/User/Monokai Extended Origin (Flake8Lint).tmTheme",
+	"draw_white_space": "all",
+	"fade_fold_buttons": false,
+	"font_face": "Ricty Diminished",
+	"font_size": 14,
+	"ignored_packages":
+	[
+	],
+	"theme": "Adaptive.sublime-theme",
+	"use_tab_stops": false,
+	"word_wrap": true
+}

@@ -1,0 +1,20 @@
+// These settings override both User and Default settings for the Markdown Extended syntax
+{
+    // Set to true to turn spell checking on by default
+    "spell_check": true,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+	"extensions":
+	[
+		"md",
+    	"markdown"
+	],
+	// Table Editor パッケージを使用する
+  	"enable_table_editor": true,
+
+	// 一応保存時の行末スペース自動削除 OFF
+  	"trim_trailing_white_space_on_save": false,
+  	"trailing_spaces_enabled": true,
+
+}
