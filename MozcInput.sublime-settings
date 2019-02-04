@@ -1,0 +1,23 @@
+{
+  "mozc_emacs_helper": "/usr/bin/mozc_emacs_helper",
+  // default: "mozc_emacs_helper"
+  // or you can use mozc_emacs_helper over ssh
+  // "mozc_emacs_helper": "ssh hostname mozc_emacs_helper",
+
+  "mozc_mode_line": "[日本語]",
+  // default: "[Mozc]"
+
+  "mozc_input_mode_line": "[入力中]",
+  // default: "✎Mozc"
+
+  "mozc_highlight_style": "comment",
+  // default: "comment" or "function"
+
+  "mozc_use_quick_panel_convert": false,
+  // default: false
+  // if you wanna use quick_panel for convert, set true
+
+  "mozc_use_quick_panel_suggest": true
+  // default: true
+  // if you don't wanna use quick_panel for suggest, set false
+}
