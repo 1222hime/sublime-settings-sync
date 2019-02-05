@@ -22,7 +22,8 @@ Sublimeの同期をGitで行う．
 
 # 環境依存的設定
 ## 共通
-  - 
+  - Package Control.sublime-settingsとPreferences.sublime-settings
+    - in_process_packagesとignored_packagesの中身って自動で変わるのかな？それぞれの環境でいらない子が入ってるけど．
 
 ## ubuntu
   - SublimeMozcInput  

@@ -10,7 +10,7 @@
 	"font_size": 14,
 	"ignored_packages":
 	[
-		"Codecs33"
+		"IMESupport"
 	],
 	"theme": "Adaptive.sublime-theme",
 	"use_tab_stops": false,
