@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Codecs33"
 	],
 	"installed_packages":
 	[
@@ -9,9 +10,10 @@
 		"Codecs33",
 		"ConvertToUTF8",
 		"DocBlockr_Python",
+		"Git",
 		"GitGutter",
+		"IMESupport",
 		"Markdown Extended",
-		"Material Theme",
 		"Monokai Extended",
 		"OmniMarkupPreviewer",
 		"Package Control",
@@ -24,7 +26,6 @@
 	],
 	"repositories":
 	[
-		"https://github.com/yasuyuky/SublimeMozcInput",
 		"https://github.com/yasuyuky/SublimeMozcInput"
 	]
 }
