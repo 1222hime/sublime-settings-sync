@@ -2,10 +2,11 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"IMESupport"
+		"Codecs33"
 	],
 	"installed_packages":
 	[
+		"ayu",
 		"BracketHighlighter",
 		"Codecs33",
 		"ConvertToUTF8",
@@ -13,7 +14,6 @@
 		"Git",
 		"GitGutter",
 		"IMESupport",
-		"Markdown Extended",
 		"Monokai Extended",
 		"OmniMarkupPreviewer",
 		"Package Control",
@@ -21,8 +21,7 @@
 		"Python PEP8 Autoformat",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
-		"SublimeMozcInput",
-		"Table Editor"
+		"SublimeMozcInput"
 	],
 	"repositories":
 	[
