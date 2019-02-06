@@ -2,11 +2,11 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Codecs33"
+		"IMESupport"
 	],
 	"installed_packages":
 	[
-		"ayu",
+		"A File Icon",
 		"BracketHighlighter",
 		"Codecs33",
 		"ConvertToUTF8",
