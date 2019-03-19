@@ -11,8 +11,6 @@
 		"Codecs33",
 		"ConvertToUTF8",
 		"DocBlockr_Python",
-		"Git",
-		"GitGutter",
 		"IMESupport",
 		"LaTeXTools",
 		"Monokai Extended",
@@ -23,7 +21,7 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeMozcInput",
-		"Sublimerge 3"
+		"Terminal"
 	],
 	"repositories":
 	[
