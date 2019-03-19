@@ -3,14 +3,14 @@
 	[
 		"bioluminescence"
 	],
-	"color_scheme": "Packages/User/Monokai Extended Origin (Flake8Lint).tmTheme",
+	"color_scheme": "Packages/User/Monokai Extended Light (Flake8Lint).tmTheme",
 	"draw_white_space": "all",
 	"fade_fold_buttons": false,
 	"font_face": "Noto Sans Mono CJK JP",
-	"font_size": 12,
+	"font_size": 16,
 	"ignored_packages":
 	[
-		"IMESupport"
+		"Codecs33"
 	],
 	"line_padding_top": -4,
 	"material_theme_accent_bright-teal": true,
