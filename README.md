@@ -5,7 +5,7 @@ Sublimeの同期をGitで行う．
 ノートパソコンが高DPI設定のせいで日本語入力がずれるので，それ対策をしてみた．
 
 # Usage
-クローン先
+以下にクローン
 
   - Linux   `~/.config/sublime-text-3/Packages/User`
   - Windows   ` ~\AppData\Roaming\Sublime Text 3\Packages`
@@ -14,34 +14,39 @@ Sublimeの同期をGitで行う．
   - windows10 (ノートパソコン)
   - ubuntu18.04
 
-# 大体の設定方針
+# sublimetextをなにに使っているか．
   - tabよりSpace
   - markdown
   - python
     - pyenv使用
-  - エディタでbuildはしない
+  - latex
 
-# 環境依存的設定
-## 共通
-### 本文のfont  
-  等幅のNotoフォントにしたけど，行間が広すぎるのでSettingで行間を詰めた．  
+# 設定(依存)
+## font  
+  等幅フォントであるNotoフォントを使用．  
+  行間が広すぎるのでSettingで行間を詰めた．  
   [Noto Sans CJK JP](https://www.google.com/get/noto/)は手動でインストール．
   
-  Rictyはなんかよくわからんエラーメッセージ吐いていたので首にした．  
-  他のフォントに比べて明らかに小さいし．  
-  つよう人いたら理由教えてほしいね．
-### sideberとかのフォントサイズ 
-  themeを入れたときにFontサイズが好みじゃないので変更した．  
+## sideberのfont size
+  sideberのfontが小さすぎる場合．  
   `選んだテーマ.sublime-theme`の中身でフォントサイズを変えられる．  
-  今は `Adaptive.sublime-theme`
+  僕の設定は `Adaptive.sublime-theme`にある．
 
-## ubuntu
-### SublimeMozcInput  
-  日本語入力がいい感じになる．Tabで変換候補が出る．  
+## ubuntuでの日本語入力
+- SublimeMozcInput  日本語入力がいい感じになる．Tabで変換候補が出る．  
   [http://yasuyuky.github.io/SublimeMozcInput/](http://yasuyuky.github.io/SublimeMozcInput/)
 
-## windows10
-### IMESupprt  
+## windowsでのlatex
+  - [SumatraPDF](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html) Latexをbuildしたときに編集中の場所がPDFで表示されるようになる．便利．
+  - 逆順検索: SumatraPDFのoptionにある逆順検索コマンドラインの設定に  
+  `"C:\Program Files\Sublime Text 3\sublime_text.exe" "%f:%l"`を入力．
+
+## windowsでのterminal
+  - [cmder](https://cmder.net/)をinstall．
+  - cmderの設定で`Windows Subsystem for Linux`をデフォルトで使うようにしたら捗る． windowsは糞
+  - ctrl + shift + t で編集中のファイルのフォルダでTerminalが起動する．
+
+## windowsでの日本語入力 IMESupprt  
  日本語入力のズレを治すパッケージだが，入れてもズレることがある．  
  ディスプレイ設定で，`拡大縮小とレイアウト`が100%じゃなかったらおこる．  
  microsoftへの怒りを抑えてどっちかの設定をすれば良い．
@@ -57,13 +62,5 @@ Sublimeの同期をGitで行う．
     1. 高DPIスケールの上書きにチェックを入れ，`アプリケーション`または`アプリケーション(拡張)`を選択する．
     1. Sublimetextの起動が遅くなる．
 
-
-# 依存まとめ
-## ubuntu
-###  apt install
-	sudo apt install emacs-mozc # SublimeMozcInput用
-### gitとかから
-  [Noto Sans CJK JP](https://www.google.com/get/noto/)  
-
-以下首にしたやつ  
-  [Ricty Diminished Discord](https://www.rs.tus.ac.jp/yyusa/ricty_diminished.html)
+## markdownのPreviewがWindowsだとエラーをはく．
+ググって．
